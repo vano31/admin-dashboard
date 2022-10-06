@@ -271,6 +271,18 @@ li {
 
 }
 
+
+.card > p,
+.announce-grid > p,
+.trending-grid > p {
+
+    font-size: 14px;
+    word-wrap: break-word;
+
+}
+
+
+
 .title {
     font-family:'Raleway', 'Aldrich', sans-serif;
     font-size: 35px;

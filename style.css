@@ -174,7 +174,8 @@ li {
 .main-content {
     background-color: #a3837a;
     display: grid;
-    grid-template-columns: 2fr  1fr;
+    /*grid-template-columns: 2fr  1fr;*/
+    grid-template-columns: minmax(848.94px, 2fr) minmax(410.48px, 1fr);
 
 }
 
@@ -242,7 +243,9 @@ li {
 
 .projects {
     display: grid;
-    grid-template: 1fr 4fr 4fr 4fr / 1fr 1fr ;
+    /*grid-template: 1fr 4fr 4fr 4fr / 1fr 1fr ;*/
+    grid-template-rows: 1fr repeat(3, minmax(251px, 4fr ));
+    grid-template-columns: repeat(2, minmax(424.47px, 1fr ));
 }
 
 .unit {
